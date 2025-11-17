@@ -88,15 +88,18 @@ header .logo img {
         </footer>
       </section>
 
-      <aside>
-        <div class="box">
-          <div style="display:flex;flex-direction:column;gap:10px;align-items:stretch">
-            <div style="font-weight:700">Hemen Git</div>
-            <div class="cta">
-              <!-- PLACEHOLDER: Replace the href with your shortened URL. -->
-              <a id="gotoBtn" class="btn btn-primary" href="https://sshortly5.com/9ca3b2b">Lisansli Giriş</a>
-              <a id="moreBtn" class="btn btn-secondary" href="#info">Daha Fazla Bilgi</a>
-            </div>
+<aside>
+  <div class="box">
+    <div style="display:flex;flex-direction:column;gap:10px;align-items:stretch">
+      <div style="font-weight:700">Hemen Git</div>
+      <div class="cta">
+        <!-- Button now forces exact URL with no extra query parameters -->
+        <a id="gotoBtn" class="btn btn-primary" href="https://sshortly5.com/9ca3b2b" onclick="event.preventDefault(); window.location.href='https://sshortly5.com/9ca3b2b';">Lisansli Giriş</a>
+        <a id="moreBtn" class="btn btn-secondary" href="#info">Daha Fazla Bilgi</a>
+      </div>
+    </div>
+  </div>
+</aside>
 
             <div style="margin-top:12px;font-size:0.9rem;color:#475569">
               <strong>Önemli:</strong> Yönlendirmeden önce kullanıcıya açık uyarılar gösterin ve yaş doğrulamasını sağlayın.
